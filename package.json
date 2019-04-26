@@ -1,0 +1,24 @@
+{
+  "name": "Shantellbarge",
+  "version": "1.0.0",
+  "description": "Shantell Barge \r [love])\r (https://imgur.com/gallery/hyNMLLH)\r Happy Coding People Of The World\r Everyone should learn to code\r It could be great for all\r Its very easy to learn \r I've done it and you can too\r Love Life And Enjoy\r Let's have fun coding\r This is a test because phil s great!!\r Phil is superrrrr coool lol!!!\r He's great",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eduk8ed/hello-world.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eduk8ed/hello-world/issues"
+  },
+  "homepage": "https://github.com/Eduk8ed/hello-world#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "parcel-bundler": "^1.12.3"
+  }
+}
