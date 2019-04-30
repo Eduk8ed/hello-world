@@ -1,7 +1,12 @@
 body{
     background-color: gold;
 }
-
+div{
+    background-color: blue;
+    color:rgb(224, 234, 235);
+    padding: 40px;
+    font-size: 250%
+}
 
 h1{
     color: snow;
@@ -9,7 +14,11 @@ h1{
   font-size: 100%;
   font-weight: bold;
 }
-  
+  .only{
+    color:rgb(41, 5, 75);
+    font-family: fantasy;
+    font-size: 44%;
+  }
   p{
     color: rgb(42, 56, 187);
     font-family: 'Times New Roman', Times, serif;
