@@ -1,0 +1,14 @@
+h1{
+    color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  }
+  
+  p{
+    color: coral;
+    font-family: 'Times New Roman', Times, serif;
+
+  }
+  ul{ color:darkgreen;
+  border: 1px solidcolor red;
+  
+}
