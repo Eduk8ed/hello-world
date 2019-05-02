@@ -1,6 +1,6 @@
 body{
     background-color: gold;
-    margin: 0 auto
+    margin: 0;
 }
 img{
     width:55%;
@@ -64,8 +64,19 @@ h1{
     background-color: darkgoldenrod;
     margin: 0 auto;
 }
+ 
+#navigation li{
+    display: inline;
+    
+    
+}
+#navigation{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
 
-
+}
 
 #second{border: 5px solid blue;
     padding: 50px;
