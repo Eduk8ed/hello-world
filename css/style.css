@@ -1,6 +1,7 @@
 body{
     background-color: gold;
     margin: 0;
+
 }
 img{
     width:;
@@ -77,7 +78,39 @@ h1{
     right: 0;
 
 }
+#navigation ul ul{
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 05;
 
+}
+
+#navigation a + ul:hover,
+#navigation a:hover + ul{
+display: block;
+
+}
+
+
+#navigation li{
+    position: relative;
+}
+
+
+
+#navigaton li:first-child{
+    background-color: rgb(245, 224, 220);
+}
+
+#navigation li:nth-child(2n + 1){
+    background-color: cyan;
+}
+
+#navigation:hover{
+    background-color: firebrick;
+
+}
 #second{border: 5px solid blue;
     padding: 50px;
     max-width: 900px;
