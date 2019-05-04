@@ -85,6 +85,9 @@ h1{
     top: 05;
 
 }
+#navigation-two{
+    font-style: italic
+}
 
 #navigation a + ul:hover,
 #navigation a:hover + ul{
