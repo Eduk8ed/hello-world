@@ -65,6 +65,10 @@ h1{
     background-color: darkgoldenrod;
     margin: 0 auto;
 }
+
+#navigation-a{
+    background-color: coral;
+}
  
 #navigation li{
     display: inline;
@@ -86,7 +90,8 @@ h1{
 
 }
 #navigation-two{
-    font-style: italic
+    font-style: italic;
+
 }
 
 #navigation a + ul:hover,
@@ -107,11 +112,11 @@ display: block;
 }
 
 #navigation li:nth-child(2n + 1){
-    background-color: cyan;
+    background-color: rgb(3, 12, 61);
 }
 
 #navigation:hover{
-    background-color: firebrick;
+    background-color: rgb(61, 60, 63);
 
 }
 #second{border: 5px solid blue;
@@ -124,7 +129,7 @@ display: block;
 }
 
 #last{
-    border: 15px dotted whitesmoke;
+    border: 15px solid whitesmoke;
     padding: 50px;
     font-family: cursive;
     margin: 0 auto;
