@@ -1,10 +1,13 @@
-body{
+   body { display: grid;
+        grid-template-areas: ;
+        grid-template-columns: 1fr;
+        grid-template-rows:  1fr;
     background-color: gold;
     margin: 0;
 
 }
 img{
-    width:;
+    widows: 25px;
     margin: 0 auto;
 }
 
@@ -12,7 +15,7 @@ img{
 div{
     
     color:rgb(224, 234, 235);
-    margin: 0 auto;
+    margin: 25 auto;
 
 
 }
@@ -71,16 +74,21 @@ h1{
 }
  
 #navigation li{
-    display: inline;
-    
-    
-}
+    display: inline;}
+
+
 #navigation{
     position: fixed;
     width: 100%;
     top: 0;
     right: 0;
 
+}
+
+#navigation >ul{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
 }
 #navigation ul ul{
     display: none;
