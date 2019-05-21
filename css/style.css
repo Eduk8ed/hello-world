@@ -2,7 +2,7 @@
         grid-template-areas: ;
         grid-template-columns: 1fr;
         grid-template-rows:  1fr;
-    background-color:burlywood;
+    background-color:rgb(34, 31, 36);
     margin: 0;
 
 }
@@ -49,7 +49,7 @@ h1{
 }
 .highlight{
     background-color: rgb(39, 59, 145);
-    outline-color: rgb(223, 247, 11);
+    outline-color:burlywood;
     margin: 0 auto
 }
 
