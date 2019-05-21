@@ -2,7 +2,7 @@
         grid-template-areas: ;
         grid-template-columns: 1fr;
         grid-template-rows:  1fr;
-    background-color: gold;
+    background-color:burlywood;
     margin: 0;
 
 }
@@ -14,7 +14,7 @@ img{
 
 div{
     
-    color:rgb(224, 234, 235);
+    color:rgb(79, 114, 117);
     margin: 25 auto;
 }
 h1{
