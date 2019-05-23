@@ -1,9 +1,8 @@
    body { display: grid;
-        grid-template-areas: ;
-        grid-template-columns: 1fr;
-        grid-template-rows:  1fr;
-    background-color:rgb(34, 31, 36);
-    margin: 0;
+        grid-template-columns: 1fr repeat(3,1fr) ;
+        grid-template-rows:  1fr ;
+    background-color:gold;
+    margin: 0 auto;
 
 }
 img{
@@ -15,7 +14,7 @@ img{
 div{
     
     color:rgb(79, 114, 117);
-    margin: 25 auto;
+    margin: 0 auto;
 }
 h1{
     color: snow;
@@ -68,6 +67,7 @@ h1{
 
 #navigation-a{
     background-color: coral;
+    margin: 0 auto;
 }
  
 #navigation li{
@@ -127,7 +127,7 @@ display: block;
 #second{border: 5px solid blue;
     padding: 50px;
     max-width: 900px;
-    width: 100%;
+    width: 80vw;
     margin: 0 auto;
 
 
