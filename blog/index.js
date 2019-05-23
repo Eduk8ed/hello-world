@@ -1,29 +1,29 @@
 const posts = [ {
-    'title': 'idk',
-    'author': 'i dont care anymore',
-    'intro': 'what a why to make a lady feel slow'
+    'title': 'Who AM I',
+    'author': 'Shantell b',
+    'intro': 'Trying to get it right'
 },
 {
-    'title': 'blahhhh',
-    'author': 'i dont care anymore',
-    'intro': 'what a why to make a lady feel slow'
+    'title': 'Code',
+    'author': 'Shantell B',
+    'intro': 'Get It Get It'
 } ,{
-    'title': 'idk',
-    'author': 'i dont care anymore',
-    'intro': 'what a why to make a lady feel slow'
+    'title': 'Yess',
+    'author': 'Shantell B',
+    'intro': 'Where Coding'
 },
 
 {
-    'title': 'going crazy here',
-    'author': 'i dont care anymore',
-    'intro': 'what a why to make a lady feel slow'
+    'title': 'Urban Coder',
+    'author': 'Shantell Barge',
+    'intro': 'Coding for the City'
 },
 {
     'title': 'Theres no crying in coding',
-    'author': 'i dont care anymore',
-    'intro': 'what a why to make a lady feel slow'
+    'author': 'Shantell Barge',
+    'intro': 'Dont get mad , try again.'
 }  ];
-
+// this is a array within something.. (get the answer later)//
 
 function Post(post){
     return `
