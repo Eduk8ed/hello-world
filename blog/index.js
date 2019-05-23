@@ -38,14 +38,12 @@ function Post(post){
 function Content(items){
     let content = '';
 
-    for(let i = 0; i < items.length; i++){
-        content = `${content}${Post(items[i])}`;
-    }
+    items.forEach((item) => content = `${content}${Post(item)}`);
+  
     
     return content;
     // content ends there never to be felt again.. so to say//
 }
-    
 
 // by placing the i within the [] it will return all elements of post//
 // or use _post_.length will do the same//
