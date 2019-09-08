@@ -48,3 +48,9 @@ function Content(items){
 // by placing the i within the [] it will return all elements of post//
 // or use _post_.length will do the same//
 document.querySelector('#content').innerHTML = Content(posts);
+
+}
+fetch('https://jsonplaceholder.typicode.com/posts')
+   .then((respone) => Response.json())
+   .then((guestPosts) => document.querySelector('#content').innerHTML += guestPosts.map(Post).join(''))
+   
